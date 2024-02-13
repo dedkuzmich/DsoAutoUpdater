@@ -36,7 +36,7 @@ $ vcpkg install curl:x64-windows-static
 | Runtime Library  | /MTd    |
 
 2.3. Configuration Properties -> Linker -> Input
-| Configuration    	   | All Configurations   		              |
+| Configuration    	       | All Configurations   		            |
 | ------------------------ | ---------------------------------- |
 | Additional dependencies  | Ws2_32.Lib;Crypt32.Lib;Wldap32.Lib |			
 
