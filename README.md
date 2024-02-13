@@ -25,6 +25,7 @@ $ vcpkg install curl:x64-windows-static
 ```
 
 2. Change these settings (Project -> Properties):
+ 
 2.1. Configuration Properties -> C/C++ -> Code Generation
 | Configuration    | Release |
 | ---------------- | ------- |
