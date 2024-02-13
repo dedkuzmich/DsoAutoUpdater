@@ -53,7 +53,7 @@ $ vcpkg install curl:x64-windows-static
 
 ## Possible remedy
 1. Guides:
-* [You Tube guide](https://www.youtube.com/watch?v=9TNPhanYbrA) about cvpkg installation and integration with MSVC.
+* [YouTube guide](https://www.youtube.com/watch?v=9TNPhanYbrA) about cvpkg installation and integration with MSVC.
 * [Text guide](https://levelup.gitconnected.com/how-to-statically-link-c-libraries-with-vcpkg-visual-studio-2019-435c2d4ace03)
 * [Official guide](https://devblogs.microsoft.com/cppblog/vcpkg-updates-static-linking-is-now-available/) about static linking.
 
@@ -69,4 +69,4 @@ $ vcpkg install curl:x64-windows-static
 3. Configuration Properties -> vcpkg
 | Configuration        | All Configurations |
 | -------------------- | ------------------ |
-| Use Static Libraries | Yes 		            |
+| Use Static Libraries | Yes 		             |
