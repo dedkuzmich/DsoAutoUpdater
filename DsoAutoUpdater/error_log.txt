@@ -1,0 +1,2 @@
+[2024-02-13 05:40:19]		File old.exe doesn't exist. Please, copy-paste it or check file permissions.
+[2024-02-13 05:42:27]		File old.exe doesn't exist. Please, copy-paste it or check file permissions.
