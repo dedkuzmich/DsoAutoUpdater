@@ -67,6 +67,7 @@ $ vcpkg install curl:x64-windows-static
 ```
 
 3. Configuration Properties -> vcpkg
+
 | Configuration        | All Configurations |
 | -------------------- | ------------------ |
 | Use Static Libraries | Yes 		             |
