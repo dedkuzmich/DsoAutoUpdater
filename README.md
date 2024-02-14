@@ -12,9 +12,9 @@ DsoAutoUpdater is an auto updater for DS-Overlay cheat for War Thunder. It works
 $ vcpkg install nlohmann-json:x64-windows
 $ vcpkg install curl:x64-windows
 ```
-The output will probably be very large
+The output will probably be very large.
 
-2. Build you project as always (don't forget to change your Solution Platform to x64).
+2. Build your project as always (don't forget to change your Solution Platform to x64).
 
 
 ## Compilation with static linking
@@ -67,6 +67,7 @@ $ vcpkg install curl:x64-windows-static
 ```
 
 3. Configuration Properties -> vcpkg
+
 | Configuration      | Use Static Libraries |
 |--------------------|----------------------|
 | All Configurations | Yes                  |
