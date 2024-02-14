@@ -27,24 +27,24 @@ $ vcpkg install curl:x64-windows-static
 2. Change these settings (Project -> Properties):
  
 2.1. Configuration Properties -> C/C++ -> Code Generation
-| Configuration    | Release |
-| ---------------- | ------- |
-| Runtime Library  | /MT     |
+| Configuration | Runtime Library |
+|---------------|-----------------|
+| Release       | /MT             |
 
 2.2. Configuration Properties -> C/C++ -> Code Generation
-| Configuration    | Debug   |
-| ---------------- | ------- |
-| Runtime Library  | /MTd    |
+| Configuration | Runtime Library |
+|---------------|-----------------|
+| Debug         | /MTd            |
 
 2.3. Configuration Properties -> Linker -> Input
-| Configuration    	       | All Configurations   		            |
-| ------------------------ | ---------------------------------- |
-| Additional dependencies  | Ws2_32.Lib;Crypt32.Lib;Wldap32.Lib |			
+| Configuration      | Additional Dependencies            |
+|--------------------|------------------------------------|
+| All Configurations | Ws2_32.Lib;Crypt32.Lib;Wldap32.Lib |
 
 2.4. Configuration Properties -> vcpkg
-| Configuration | All Configurations |
-| ------------- | -------------------|
-| Triplet       | x64-windows-static |	
+| Configuration      | Triplet            |
+|--------------------|--------------------|
+| All Configurations | x64-windows-static |
 
 3. Apply changes.
 
@@ -53,9 +53,9 @@ $ vcpkg install curl:x64-windows-static
 
 ## Possible remedy
 1. Guides:
-* [YouTube guide](https://www.youtube.com/watch?v=9TNPhanYbrA) about cvpkg installation and integration with MSVC.
+* [YouTube guide](https://www.youtube.com/watch?v=9TNPhanYbrA)
 * [Text guide](https://levelup.gitconnected.com/how-to-statically-link-c-libraries-with-vcpkg-visual-studio-2019-435c2d4ace03)
-* [Official guide](https://devblogs.microsoft.com/cppblog/vcpkg-updates-static-linking-is-now-available/) about static linking.
+* [Official guide](https://devblogs.microsoft.com/cppblog/vcpkg-updates-static-linking-is-now-available/)
 
 2. Add VcpkgTriplet's to "Globals" section in project file `DsoAutoUpdater.vcxproj`:
 ```xml
@@ -67,7 +67,6 @@ $ vcpkg install curl:x64-windows-static
 ```
 
 3. Configuration Properties -> vcpkg
-
-| Configuration        | All Configurations |
-| -------------------- | ------------------ |
-| Use Static Libraries | Yes 		             |
+| Configuration      | Use Static Libraries |
+|--------------------|----------------------|
+| All Configurations | Yes                  |
