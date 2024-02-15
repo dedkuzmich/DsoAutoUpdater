@@ -6,6 +6,11 @@ DsoAutoUpdater is an auto updater for DS-Overlay cheat for War Thunder. It works
 * Updates the offsets values presented in binary to their up-to-date versions.
 
 
+## Usage
+1. Rename outdated `DS-Overlay.exe` to `old.exe` and place it in the same folder as `DsoAutoUpdater.exe`.
+2. Run `DsoAutoUpdater.exe`.
+
+
 ## Compilation with dynamic linking
 1. Install dynamic libraries via vcpkg:
 ```shell
